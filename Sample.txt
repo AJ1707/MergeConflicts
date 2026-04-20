@@ -19,3 +19,5 @@ transactions = NP.array([250.5, 89.0, 1200.0, 450.75, 30.0, 780.0, 1500.5, 65.0,
 above500 = transactions[transactions > 500.0]
 print("High-value transactions (>$500): ",above500)
 print("Number of high-value transactions: ",above500.size)
+above600 = transactions[transactions > 600.0]
+print("Number of high-value transactions: ",above600.size)
