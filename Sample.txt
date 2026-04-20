@@ -1,9 +1,9 @@
 # Your code here
-ages = NP.array([23, 45, 31, 67, 29, 52, 38, 44])
-print("Ages: ",ages)
-print("Shape: ",ages.shape)
-print("Data Type: ",ages.dtype)
-print("Number of elements: ",ages.size)
+new_ages = NP.array([23, 45, 31, 67, 29, 52, 38, 44])
+print("Ages: ",new_ages)
+print("Shape: ",new_ages.shape)
+print("Data Type: ",new_ages.dtype)
+print("Number of elements: ",new_ages.size)
 sales = np.array([120, 85, 200, 95, 175, 60, 210, 140, 88, 165])
 # Your code here
 print("Day 1 sales: ",sales[0])
