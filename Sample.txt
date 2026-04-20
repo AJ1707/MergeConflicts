@@ -4,7 +4,7 @@ print("Ages: ",ages)
 print("Shape: ",ages.shape)
 print("Data Type: ",ages.dtype)
 print("Number of elements: ",ages.size)
-sales = np.array([120, 85, 200, 95, 175, 60, 210, 140, 88, 165])
+sales = np.array([120, 85, 300, 95, 175, 60, 310, 140, 88, 165])
 # Your code here
 print("Day 1 sales: ",sales[0])
 print("Last day sales: ",sales)
