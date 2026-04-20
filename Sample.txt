@@ -4,13 +4,18 @@ print("Ages: ",ages)
 print("Shape: ",ages.shape)
 print("Data Type: ",ages.dtype)
 print("Number of elements: ",ages.size)
+new_ages = NP.array([23, 45, 31, 67, 29, 52, 38, 44])
+print("Ages: ",new_ages)
+print("Shape: ",new_ages.shape)
+print("Data Type: ",new_ages.dtype)
+print("Number of elements: ",new_ages.size)
 sales = np.array([120, 85, 200, 95, 175, 60, 210, 140, 88, 165])
 # Your code here
 print("Day 1 sales: ",sales[0])
 print("Last day sales: ",sales)
 print("Days 3 to 7 sales: ",sales)
-transactions = NP.array([250.5, 89.0, 1200.0, 450.75, 30.0, 780.0, 1600.5, 65.0, 340.0, 920.0])
+transactions = NP.array([250.5, 89.0, 1200.0, 450.75, 30.0, 780.0, 1500.5, 65.0, 340.0, 920.0])
 # Your code here
-above500 = transactions[transactions > 600.0]
+above500 = transactions[transactions > 500.0]
 print("High-value transactions (>$500): ",above500)
 print("Number of high-value transactions: ",above500.size)
